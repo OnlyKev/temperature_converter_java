@@ -41,7 +41,7 @@ public class temperature_converter {
             // Prompt the user with a greeting
             System.out.println("Hello User, it appears you want to handle temperature conversions today :]");
             // prompt the user with choice or temperature conversion
-            System.out.println("1 to convert from Celsius to Fahrenheit or 2 to convert from Fahrenheit to Celsius");
+            System.out.println("1 to convert from Fahrenheit to Celsius or 2 to convert from Celsius to Fahrenheit");
             Scanner sc = new Scanner(System.in);
             int choice = sc.nextInt();
             if (choice == 1) {

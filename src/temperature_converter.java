@@ -29,15 +29,13 @@ public class temperature_converter {
         char input = in.nextLine().charAt(0);
         if (input == 'Y' || input == 'y') {
             return true;
-        }
-        else {
+        } else {
             System.out.println("Thank you for converting :]");
             return false;
         }
     }
     public static void main(String[] args) {
-        do
-        {
+        do {
             // Prompt the user with a greeting
             System.out.println("Hello User, it appears you want to handle temperature conversions today :]");
             // prompt the user with choice or temperature conversion
@@ -51,18 +49,17 @@ public class temperature_converter {
                 // handles convertion
                 double celsius = convert_to_celsius(fahrenheit);
                 System.out.println("Fahrenheit: " + fahrenheit + " converted to Celsius: " + String.format("%.2f", celsius));
-            }
-            else if (choice == 2) {
+            } else if (choice == 2) {
                 System.out.println("Enter temperature in Celsius");
                 Scanner sc3 = new Scanner(System.in);
                 double celsius = sc3.nextDouble();
                 // handles convertion
                 double fahrenheit = convert_to_fahrenheit(celsius);
                 System.out.println("Celsius: " + celsius + " converted to Fahrenheit: " + String.format("%.2f", fahrenheit));
-            }
-            else {
+            } else {
                 System.out.println("Please enter a valid number to continue");
             }
-        }while(restart());
+            // end of program
+        } while(restart());
     }
 }

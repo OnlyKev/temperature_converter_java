@@ -28,14 +28,22 @@ This program allows users to convert temperatures between Celsius and Fahrenheit
 3. Follow the on-screen prompts to perform temperature conversions.
 
 ## Usage Example
-program: Hello User, it appears you want to handle temperature convertions today:} 
-program: 1 to convert from celsius to Fahrenheit or 2 convert from Fahrenheit to Celsius.
+program: Hello User, it appears you want to handle temperature conversions today:} 
+
+program: 1 to convert from Celsius to Fahrenheit or 2 convert from Fahrenheit to Celsius.
+
 user: 2
+
 program: Enter the temperature in Fahrenheit
+
 user: 32
+
 program: Fahrenheit 32.0 converted to Celsius 0.00
+
 Program: Want to convert again? (Y/N)
+
 user: N
+
 Program: Thank you for converting :]
 
 ## License

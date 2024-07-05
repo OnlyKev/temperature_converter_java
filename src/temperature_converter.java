@@ -46,14 +46,14 @@ public class temperature_converter {
                 System.out.println("Enter temperature in Fahrenheit");
                 Scanner sc2 = new Scanner(System.in);
                 double fahrenheit = sc2.nextDouble();
-                // handles convertion
+                // handles conversion
                 double celsius = convert_to_celsius(fahrenheit);
                 System.out.println("Fahrenheit: " + fahrenheit + " converted to Celsius: " + String.format("%.2f", celsius));
             } else if (choice == 2) {
                 System.out.println("Enter temperature in Celsius");
                 Scanner sc3 = new Scanner(System.in);
                 double celsius = sc3.nextDouble();
-                // handles convertion
+                // handles conversion
                 double fahrenheit = convert_to_fahrenheit(celsius);
                 System.out.println("Celsius: " + celsius + " converted to Fahrenheit: " + String.format("%.2f", fahrenheit));
             } else {
